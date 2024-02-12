@@ -1,3 +1,45 @@
 ---
 ---
-<h1>Timothée Meyer</h1>
+<header class="flex flex-row">
+    <div class="w-1/2 h-full flex justify-center items-center">
+        <div class="w-80 h-80 bg-gray-200 rounded-full relative">
+            <img
+                class="absolute w-48 top-1/2 left-1/2"
+                src="/svg/js-icon.svg"
+                alt="icon JS">
+            <img class="absolute w-56 top-1/2 left-1/2"
+                 src="/svg/sql-icon.svg"
+                 alt="icon SQL">
+            <img class="absolute w-48 top-1/2 left-1/2"
+                 src="/svg/terminal.svg"
+                 alt="icon terminal">
+        </div>
+    </div>
+    <div class="w-1/2 h-full flex flex-col items-center justify-center text-white md:mr-20">
+        <h1 class="text-6xl font-semibold">Timothée Meyer</h1>
+        <h2 class="text-5xl">Développeur Junior</h2>
+    </div>
+</header>
+
+<style>
+    header {
+        height: 80vh;
+        background: linear-gradient(135deg, #7FB069, #69B081);
+    }
+
+    img {
+        transform: translate(-50%, -50%);
+    }
+
+    img:nth-child(1) {
+        transform: translate(-100%, 0);
+    }
+
+    img:nth-child(2) {
+        transform: translate(-50%, -75%);
+    }
+
+    img:nth-child(3) {
+        transform: translate(0%, 0);
+    }
+</style>
