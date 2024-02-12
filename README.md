@@ -15,4 +15,3 @@ Timothée Meyer - Developpeur web
   - Formation
   - Expérience professionelle
 - Mes projets
-- 
