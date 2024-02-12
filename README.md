@@ -4,9 +4,15 @@ Timothée Meyer - Developpeur web
 
 ## Page d'acceuil
 
-
+- Sommaire
 
 ### Sommaire :
 
-- Mes skills 
+- Mes skills
+  - Soft
+  - Hard
 - Mon profil
+  - Formation
+  - Expérience professionelle
+- Mes projets
+- 
